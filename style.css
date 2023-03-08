@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 710px;
+    width: 100%;
+
+    background:url(nature-hd-fond_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-width: 300px;
+    background-color: #0c0c0e;
+    opacity: 0.8;
+    border-radius: 15px;
+    color: #fff;
+    
+    
+    
+}
+.formbox h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px;
+  
+}
+.inputbox{
+    margin-bottom: 20px;
+}
+
+.inputbox input{
+   width: 100%;
+   padding: 10px 20px;
+   font-weight: 600;
+   border: 1px solid #607d8b;
+   border-radius: 10px;
+   margin-top: 10px;
+  
+}
+button{
+   
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    
+     
+}
+
+button a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.remember{
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+}
+p a{
+    color: #ffffff62;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px; 
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(nature-hd-fond_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    form {
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        gap:  15px;
+        align-items: center;
+        height: 650px;
+        margin: 30px auto;
+        width: 30%;
+        min-width: 300px;
+        border-radius: 15px;
+        color: #fff;
+        opacity: 0.8;
+    }
+    h1{
+        margin: 20px;
+        text-align: center;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        width: 78%;
+                
+    }
+    label{
+         margin-bottom: 5px; 
+        font-size: 1.3em;
+    }
+    select{
+        width: 78%;
+        padding: 8px;
+        outline: none;
+        
+    }
+
+    option{
+        background-color: #f1b786;
+        color: #080808;
+    }
+
+    .display{
+        display: flex;
+        gap: 15px;
+        width: 77%;
+    }
+    .display input{
+        width: 90%;
+    }
+
+    input{
+        
+        
+        padding: 8px;
+        outline: none;
+    }
+    button{
+        width: 83%;
+        padding: 10px;
+        border-radius: 30px;
+        font-size: 1em;
+        border: none;
+        background-color: #fff;
+    }
+    button a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    

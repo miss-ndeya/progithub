@@ -1,20 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-image: url(nature-hd-fond_1920x1080.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
     form {
-        background-color: #000;
+        background-color: #0c0c0e;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap:  15px;
         align-items: center;
-        height: 650px;
+        height: 600px;
         margin: 30px auto;
         width: 30%;
         min-width: 300px;
@@ -22,14 +29,13 @@ body{
         color: #fff;
         opacity: 0.8;
     }
-    h1{
-        margin: 20px;
-        text-align: center;
-    }
+   
     .input{
         display: flex;
         flex-direction: column;
         width: 78%;
+        
+      
                 
     }
     label{
@@ -40,40 +46,50 @@ body{
         width: 78%;
         padding: 8px;
         outline: none;
+        border-radius: 10px;
+        
         
     }
 
     option{
-        background-color: #f1b786;
+        background-color: #fdfcfa;
         color: #080808;
     }
 
     .display{
         display: flex;
         gap: 15px;
-        width: 77%;
+        width: 85%;
+        margin-left: 25px;
     }
     .display input{
-        width: 90%;
+        width: 78%;
+        padding: 8px;
     }
+    .display div label{
+        margin-bottom: 5px;
+    } 
+    
 
     input{
-        
-        
-        padding: 8px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
         outline: none;
+        
     }
     button{
-        width: 83%;
-        padding: 10px;
-        border-radius: 30px;
+        width: 78%;
+        padding: 8px;
+        border-radius: 15px;
         font-size: 1em;
         border: none;
         background-color: #fff;
+        
     }
     button a{
         text-decoration: none;
         color: black;
         font-weight: bold;
     }
-    
+   
